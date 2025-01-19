@@ -1,5 +1,5 @@
 {
-  "name": "drashta-types-ts",
+  "name": "@learners-analytica/drashta-types-ts",
   "version": "1.0.0",
   "private" : true,
   "description": "A Types Package for Drashta's Web Services ",
