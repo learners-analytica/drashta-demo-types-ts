@@ -9,6 +9,9 @@
     "type": "git",
     "url": "git+https://github.com/learners-analytica/drashta-types-ts.git"
   },
+  "scripts": {
+    "build": "npx tsc"
+  },
   "keywords": [
     "types"
   ],
