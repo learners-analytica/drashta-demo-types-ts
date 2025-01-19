@@ -1,9 +1,10 @@
 {
   "name": "@learners-analytica/drashta-types-ts",
   "version": "1.0.0",
-  "private" : true,
+  "private": true,
   "description": "A Types Package for Drashta's Web Services ",
   "main": "index.d.ts",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/learners-analytica/drashta-types-ts.git"
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/learners-analytica/drashta-types-ts#readme",
   "devDependencies": {
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@types/chart.js": "^2.9.41"
   }
 }
