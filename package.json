@@ -7,7 +7,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "LAFCL-1.0-ALv2",
   "description": "",
   "devDependencies": {
     "typescript": "^5.7.3"
