@@ -8,11 +8,14 @@ on:
 jobs:
   publish-gpr:
     runs-on: ubuntu-latest
+    env:
+        ACTIONS_RUNNER_DEBUG: true
+        ACTIONS_STEP_DEBUG: true
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v3
         with:
-          node-version: 22
+          node-version: 18
           registry-url: https://npm.pkg.github.com/
           scope: '@learners-analytica'
       - run: npm install
