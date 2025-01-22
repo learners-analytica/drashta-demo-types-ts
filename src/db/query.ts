@@ -5,6 +5,6 @@ export interface DatasetQueryOutput {
     datasets: ChartDataset[]
 }
 
-interface DatasetColumnRequest {
+export interface DatasetColumnRequest {
     columns:string[];
 }

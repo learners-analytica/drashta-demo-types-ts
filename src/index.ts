@@ -1,1 +1,1 @@
-export type {DatasetQueryOutput} from "./db/query";
+export type * from "./db/query";
