@@ -2,7 +2,7 @@
   "name": "@learners-analytica/drashta-types-ts",
   "version": "1.1.2",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
