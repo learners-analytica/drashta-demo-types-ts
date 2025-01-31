@@ -1,3 +1,4 @@
+export * from "./services"
 export type DataSeries = {
     readonly seriesName: string,
     readonly seriesType: string
