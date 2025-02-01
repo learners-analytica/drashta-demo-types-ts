@@ -14,5 +14,8 @@
   "devDependencies": {
     "typescript": "^5.7.3"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "chart.js": "^4.4.7"
+  }
 }
