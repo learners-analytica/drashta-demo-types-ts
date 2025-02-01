@@ -1,3 +1,4 @@
+export * from "./services";
 export type DataSeries = {
     readonly seriesName: string;
     readonly seriesType: string;
@@ -11,4 +12,3 @@ export type TableStructure = {
     tableName: string;
     tableColumns: readonly TableColumnEntry[];
 };
-export {};
