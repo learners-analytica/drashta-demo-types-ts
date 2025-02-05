@@ -1,10 +1,13 @@
-export namespace POST {
-    export type responseTrainAutoML = {
-        model_id : string,
-        model_name : string,
-        model_file_path:string,
-        model_target:string,
-        model_task_type:string,
-        model_eval_metric:string
+export namespace Analytics_Response {
+    export namespace POST {
+        export type ResponseTrainAutoML = {
+            modelId: string;
+            modelName: string;
+            modelFilePath: string;
+            modelTarget: string;
+            modelTaskType: string;
+            modelEvalMetric: string;
+        };
     }
 }
+
