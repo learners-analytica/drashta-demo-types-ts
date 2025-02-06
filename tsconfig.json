@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*"],  // Include all files in the src folder
+  "include": ["src/**/**/*"],  // Include all files in the src folder
   "exclude": ["node_modules"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
