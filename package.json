@@ -1,6 +1,6 @@
 {
   "name": "@learners-analytica/drashta-types-ts",
-  "version": "2.0.7-dev",
+  "version": "2.0.7.1-dev",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {

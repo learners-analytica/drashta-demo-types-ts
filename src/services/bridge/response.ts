@@ -1,14 +1,14 @@
-import type { TableStructure,DataSeries } from "../../data"
+import type { TTableStructure,TDataSeries } from "../../data"
 export namespace Bridge_Response {
     export namespace POST {
         export type requestDataStructure = {
-            structure:TableStructure[]
+            structure:TTableStructure[]
         }
     }
 
     export namespace GET {
         export type requestData = {
-            data:DataSeries[]
+            data:TDataSeries[]
         }
     }
 }

@@ -1,14 +1,14 @@
-export type DataSeries = {
-    readonly seriesName: string;
-    readonly seriesType: string;
-    readonly seriesData: readonly unknown[];
+export type TDataSeries = {
+    readonly series_name: string;
+    readonly series_type: string;
+    readonly series_data: readonly unknown[];
 };
-type TableColumnEntry = {
-    readonly columnName: string;
-    readonly columnType: string;
+type TTableColumnEntry = {
+    readonly column_name: string;
+    readonly column_type: string;
 };
-export type TableStructure = {
-    tableName: string;
-    tableColumns: readonly TableColumnEntry[];
+export type TTableStructure = {
+    table_name: string;
+    table_columns: readonly TTableColumnEntry[];
 };
 export {};
