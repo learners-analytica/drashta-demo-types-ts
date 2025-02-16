@@ -23,3 +23,8 @@ export type TTableStructure = {
     table_name: string;
     table_columns: readonly TColumnStructureHead[];
 }
+
+export type TTableData = {
+    table_name : string;
+    table_columns_data: readonly TColumnStructureData[];
+}
