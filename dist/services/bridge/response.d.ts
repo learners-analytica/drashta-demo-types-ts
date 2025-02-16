@@ -1,4 +1,4 @@
-import type { TTableStructure, TDataSeries } from "../../data";
+import type { TTableStructure, TColumnStructureData } from "../../data";
 export declare namespace Bridge_Response {
     namespace POST {
         type requestDataStructure = {
@@ -7,7 +7,7 @@ export declare namespace Bridge_Response {
     }
     namespace GET {
         type requestData = {
-            data: TDataSeries[];
+            data: TColumnStructureData[];
         };
     }
 }

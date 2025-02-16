@@ -1,28 +1,5 @@
 
-type TDataPreviewTuple = [unknown,unknown,unknown,unknown,unknown]
-type TDataArray = unknown[]
-
-
-/**
- * @deprecated This type is deprecated. Use `TColumnDataSeries` instead.
- */
-export type TDataSeries = {
-    readonly series_name: string;
-    readonly series_type: string;
-    readonly series_data: readonly unknown[];
-    readonly series_mean: number;
-    readonly series_count: number;
-    readonly is_series_key: boolean;
-}
-
-/**
- * @deprecated This type is deprecated. Use `TColumnStructure` instead.
- */
-export type TTableColumnEntry = {
-    readonly column_name: string;
-    readonly column_type: string;
-    readonly column_is_key: string;
-}
+export type TDataArray = unknown[]
 
 export type TColumnStructureHead = {
     column_name : string,
@@ -31,7 +8,7 @@ export type TColumnStructureHead = {
 }
 
 export type TColumnStructureMeta = TColumnStructureHead & {
-    column_data_preview : TDataPreviewTuple
+    column_data_preview : TDataArray
     column_min : number
     column_max : number
     column_count : number
