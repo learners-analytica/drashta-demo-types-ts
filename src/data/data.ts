@@ -2,6 +2,8 @@ export type TDataSeries = {
     readonly series_name: string,
     readonly series_type: string
     readonly series_data: readonly unknown[],
+    readonly series_mean: number
+    readonly series_count: number
 }
 
 export type TTableColumnEntry = {
