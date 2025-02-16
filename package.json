@@ -1,12 +1,13 @@
 {
   "name": "@learners-analytica/drashta-types-ts",
-  "version": "2.0.72-dev",
+  "version": "2.0.73-dev",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "prepush": "npm run build"
+    "prepush": "npm run build",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "learner's Analytica",
