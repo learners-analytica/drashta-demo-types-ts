@@ -4,7 +4,7 @@ export type TDataSeries = {
     readonly series_data: readonly unknown[],
 }
 
-type TTableColumnEntry = {
+export type TTableColumnEntry = {
     readonly column_name : string,
     readonly column_type : string
 }
