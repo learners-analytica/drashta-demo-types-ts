@@ -24,10 +24,13 @@ export type TTableColumnEntry = {
     readonly column_is_key: string;
 }
 
-export type TColumnStructure = {
+export type TColumnStructureHead = {
     column_name : string,
     column_type : string,
     column_is_key : boolean;
+}
+
+export type TColumnStructureMeta = TColumnStructureHead & {
     column_data_preview : TDataPreviewTuple
     column_min : number
     column_max : number
@@ -35,11 +38,11 @@ export type TColumnStructure = {
     column_mean : number
 }
 
-export type TColumnDataSeries = TColumnStructure & {
+export type TColumnStructureData = TColumnStructureMeta & {
     column_data : TDataArray
 }
 
 export type TTableStructure = {
     table_name: string;
-    table_columns: readonly TColumnStructure[];
+    table_columns: readonly TColumnStructureHead[];
 }
