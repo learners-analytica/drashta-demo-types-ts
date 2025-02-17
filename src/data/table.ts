@@ -8,10 +8,10 @@ export type TTableStructure = TTableHead & {
     table_column_head_data : TDataSeriesHead[],
 }
 
-export type TTableData = TTableHead & TDataSeriesMetadata & {
+export type TTableMetaData = TTableHead & TDataSeriesMetadata & {
     table_data_series : TDataSeries[],
 }
 
-export type TTableRawData = TTableHead & {
+export type TTableData = TTableHead & {
     table_data_series : TDataArray[],
 }
