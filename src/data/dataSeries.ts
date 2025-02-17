@@ -1,6 +1,6 @@
 import type { BubbleDataPoint, Point } from "chart.js";
 
-type TDataArray = unknown[]
+export type TDataArray = unknown[]
 
 export type TDataSeriesHead = {
     column_name : string,

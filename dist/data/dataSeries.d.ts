@@ -1,4 +1,4 @@
-type TDataArray = unknown[];
+export type TDataArray = unknown[];
 export type TDataSeriesHead = {
     column_name: string;
     column_type: string;
@@ -14,4 +14,3 @@ export type TDataSeriesRaw = TDataSeriesHead & {
     column_data: TDataArray;
 };
 export type TDataSeries = TDataSeriesRaw & TDataSeriesMetadata;
-export {};
