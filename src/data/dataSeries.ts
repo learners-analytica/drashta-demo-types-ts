@@ -3,19 +3,20 @@ import type { BubbleDataPoint, Point } from "chart.js";
 type TDataArray = unknown[]
 
 export type TDataSeriesHead = {
-    seriesName : string,
-    seriesType : string,
+    column_name : string,
+    column_type : string,
+    column_is_key: boolean
 }
 
 export type TDataSeriesMetadata = {
-    seriesAvg : number,
-    seriesMin : number,
-    seriesMax : number,
-    seriesCount : number,
+    column_avg : number,
+    column_min : number,
+    column_max : number,
+    column_count : number,
 }
 
 export type TDataSeriesRaw = TDataSeriesHead & {
-    seriesData : TDataArray,
+    column_data : TDataArray,
 }
 
 export type TDataSeries = TDataSeriesRaw & TDataSeriesMetadata

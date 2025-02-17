@@ -1,17 +1,17 @@
-import type { TDataSeries, TDataSeriesHead, TDataSeriesRaw } from "./dataSeries";
+import type { TDataSeries, TDataSeriesHead, TDataSeriesRaw, TDataSeriesMetadata } from "./dataSeries";
 
 export type TTableHead = {
-    tableName:string,
+    table_name:string,
 }
 
 export type TTableStructure = TTableHead & {
-    tableColumnsHeadData : TDataSeriesHead[],
+    table_column_head_data : TDataSeriesHead[],
 }
 
-export type TTableMetaData = TTableHead & {
-    tableColumnsData : TDataSeries[],
+export type TTableMetaData = TTableHead & TDataSeriesMetadata & {
+    table_data_series : TDataSeries[],
 }
 
 export type TTableRawData = TTableHead & {
-    tableColumnsData : TDataSeriesRaw[],
+    table_data_series : TDataSeriesRaw[],
 }
