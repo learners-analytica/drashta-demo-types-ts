@@ -1,4 +1,4 @@
-export enum AggregrateOperations {
+export enum AggregationOperations {
     SUM = "sum",
     COUNT = "count",
     MAX = "max",
