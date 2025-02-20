@@ -9,5 +9,5 @@ export type TTableMetaData = TTableHead & {
     table_data_series: TDataSeries[];
 };
 export type TTableData = TTableHead & {
-    table_data_series: TDataArray[];
+    table_data_series: TDataArray;
 };
