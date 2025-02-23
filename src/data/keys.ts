@@ -5,3 +5,13 @@ export enum AggregationOperations {
     MIN = "min",
     AVG = "avg"
 }
+
+export enum MLTaskTypes {
+    CLASSIFICATION = "classification",
+    REGRESSION = "regression",
+    TS_FORECAST = "ts_forecast",
+    RANK = "rank",
+    SEQ_CLASSIFICATION = "seq-classification",
+    SEQ_REGRESSION = "seq-regression",
+    SUMMARIZATION = "summarization"
+}
