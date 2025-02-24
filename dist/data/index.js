@@ -17,3 +17,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./dataSeries"), exports);
 __exportStar(require("./keys"), exports);
 __exportStar(require("./table"), exports);
+__exportStar(require("./model"), exports);
