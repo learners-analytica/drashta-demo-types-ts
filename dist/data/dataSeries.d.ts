@@ -1,8 +1,10 @@
 export type TDataArray = unknown[];
 export type TColumnNames = string[];
-export type TDataSeriesHead = {
+export type TDataSeriesMinimal = {
     column_name: string;
     column_type: string;
+};
+export type TDataSeriesHead = TDataSeriesMinimal & {
     column_is_key: boolean;
 };
 export type TDataSeriesMetadata = {
