@@ -1,4 +1,4 @@
-import type { TDataSeries, TDataSeriesHead, TDataArray, TDataSeriesMetadata } from "./dataSeries";
+import type { TDataSeries, TDataSeriesHead, TDataArray } from "./dataSeries";
 export type TTableHead = {
     table_name: string;
 };
