@@ -7,5 +7,5 @@ export type TModelMetadata = {
     task: MLTaskTypes;
     date: string;
     columns: TDataSeriesMinimal[];
-    target: string;
+    target: TDataSeriesMinimal[];
 };
