@@ -13,6 +13,7 @@ export type TDataSeriesMetadata = {
     column_min: number;
     column_max: number;
     column_count: number;
+    column_distinct : number;
 };
 export type TDataSeriesRaw = TDataSeriesHead & {
     column_data: TDataArray;
