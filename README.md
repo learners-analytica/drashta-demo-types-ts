@@ -1,3 +1,3 @@
-#Drashta-Type-TS
+# drashta-types-ts
 
 Typscript Library for Drashta Demo
